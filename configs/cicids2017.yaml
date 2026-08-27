@@ -1,0 +1,12 @@
+base: base.yaml
+data:
+  dataset: cicids2017
+  train_path: data/raw/cicids2017/flows.csv
+  test_path: null
+  test_size: 0.4
+  label_column: Label
+  categorical_columns: []
+  processed_dir: data/processed/cicids2017
+experiment:
+  output_dir: outputs/cicids2017
+

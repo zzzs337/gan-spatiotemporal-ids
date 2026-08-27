@@ -1,0 +1,11 @@
+base: base.yaml
+data:
+  dataset: nsl_kdd
+  train_path: data/raw/nsl_kdd/KDDTrain+.txt
+  test_path: data/raw/nsl_kdd/KDDTest+.txt
+  label_column: label
+  categorical_columns: [protocol_type, service, flag]
+  processed_dir: data/processed/nsl_kdd
+experiment:
+  output_dir: outputs/nsl_kdd
+

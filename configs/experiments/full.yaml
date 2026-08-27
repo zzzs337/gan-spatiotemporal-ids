@@ -1,0 +1,4 @@
+base: ../unsw_nb15.yaml
+experiment:
+  output_dir: outputs/ablation/full
+

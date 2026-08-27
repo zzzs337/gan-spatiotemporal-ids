@@ -1,0 +1,11 @@
+base: base.yaml
+data:
+  dataset: unsw_nb15
+  train_path: data/raw/unsw_nb15/UNSW_NB15.csv
+  test_path: null
+  test_size: 0.4
+  label_column: attack_cat
+  categorical_columns: [proto, service, state]
+  processed_dir: data/processed/unsw_nb15
+experiment:
+  output_dir: outputs/unsw_nb15

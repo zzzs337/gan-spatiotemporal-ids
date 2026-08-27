@@ -1,0 +1,6 @@
+base: ../unsw_nb15.yaml
+gan:
+  enabled: false
+experiment:
+  output_dir: outputs/ablation/improved_no_gan
+

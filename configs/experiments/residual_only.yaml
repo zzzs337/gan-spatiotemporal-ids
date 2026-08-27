@@ -1,0 +1,10 @@
+base: ../unsw_nb15.yaml
+model:
+  use_multiscale: false
+  use_gru: false
+  use_residual: true
+gan:
+  enabled: false
+experiment:
+  output_dir: outputs/ablation/residual_only
+

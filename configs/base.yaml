@@ -1,0 +1,40 @@
+data:
+  dataset: null
+  train_path: null
+  test_path: null
+  test_size: 0.4
+  validation_size: 0.2
+  label_column: label
+  categorical_columns: []
+  csv_options: {}
+  processed_dir: data/processed/default
+  window_size: 4
+  window_stride: 1
+
+model:
+  hidden_dim: 64
+  num_blocks: 3
+  kernel_sizes: [3, 5, 7]
+  use_multiscale: true
+  use_gru: true
+  use_residual: true
+  dropout: 0.1
+
+gan:
+  enabled: true
+  noise_dim: 32
+  hidden_dim: 64
+  batch_size: 128
+  epochs: 20
+  learning_rate: 0.0002
+  target_samples: null
+  minimum_real_samples: 8
+
+training:
+  batch_size: 128
+  epochs: 11
+  learning_rate: 0.001
+
+experiment:
+  seed: 42
+  output_dir: outputs/default
